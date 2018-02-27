@@ -21,10 +21,11 @@
 ### Dumping A System Title As A CIA
 *(Note: You may need the TitleID of the System App, a list of these can be found [here](https://www.3dbrew.org/wiki/Title_list "System Title List"))*
 1. Select \[1:\] SYSNAND CTRNAND.
-2. Highlight the title folder, press R+A and select "Search for titles"
+2. **Highlight** the title folder, press R+A and select "Search for titles"
 3. Find the title which you want to dump. The names are usually accurate enough.
-3. Select TMD file options... > Build CIA (legit).
-4. The CIA will be in /gm9/out/titleid (+ the name and some other information).cia.
+   - note: Special character like Japanese won't show in GodMode9.
+4. Select TMD file options... > Build CIA (legit).
+5. The CIA will be in /gm9/out/\[titleID\] (+ the name and some other information).cia.
     - note: there may be something before .cia, it is perfectly fine.
 
 ### Dumping other files from CIAs (for ROM Hacking purposes)
@@ -39,7 +40,7 @@
 6. Navigate to a folder in which you wish to extract files to, and press Y to paste the files.
 
 ### Dumping other files from SD titles
-1. Select [A:] SYSNAND SD.
+1. Select \[A:\] SYSNAND SD.
 2. Select title, highlight 00040000 if you are dumping a full title, 0004000e for an update press R+A and select "Search for titles"
 3. Select the .tmd, and then "Open containing folder"
 4. Select the largest .app > NCCH Options... > mount image to drive.
@@ -61,7 +62,7 @@
 7. Navigate to a folder in which you wish to extract files to, and press Y to paste the files.
 
 ### Dumping other files from a gamecart
-1. Go to GAMECART > Titleid.3ds > NCSD image options... > mount image to drive.
+1. Go to \[C:\]GAMECART > Titleid.3ds > NCSD image options... > mount image to drive.
 2. Select content0.game (0 may be a different number).
 3. Select the files that you wish to extract.
     1. I.e. if you need a full romfs.bin, select that. .code (code.bin) is stored in the exefs folder.

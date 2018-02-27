@@ -1,21 +1,26 @@
 # Godmode9 CIA Dumping and Building
 
+## Terms used in this Guide
+- TitleID
+    - TitleID consists of 32 numeric character. Like 0004000000030000. You can find them in [3dsdb](http://www.3dsdb.com/)
+
 ### Dumping and Converting A Cartridge Game To CIA
-1. Select [C:]GAMECART.
-2. Select The [TitleID].trim.3ds file.
+1. Select \[C:\]GAMECART.
+2. Select The \[TitleID\]\_v00.trim.3ds file.
 3. Select NCSD image options... > Build CIA from file.
-4. The CIA will be in /gm9/out/titleid.cia (there may be more information than this in the name, that is perfectly fine and does not mean anything bad).
+4. Wait until operation finishes.
+5. The CIA will be in /gm9/out/[TitleID].cia (there may be more information than this in the name, that is perfectly fine and does not mean anything bad).
 
 ### Dumping An Installed SD Title As A CIA
 1. Select [A:] SYSNAND SD.
-2. Select title, highlight 00040000 if you are dumping a full title or 0004000e for an update, press R+A and select "Search for titles"
-3. Find the title which you want to dump. The names are usually accurate enough.
-3. Select TMD file options... > Build CIA (standard).
-4. The CIA will be in /gm9/out/titleid.cia.
+2. Select title, **highlight** 00040000 if you are dumping a full title or 0004000e for an update, press R+A and select "Search for titles".
+3. Find the title which you want to dump with A button. The names are usually accurate enough.
+4. Select TMD file options... > Build CIA (standard).
+5. The CIA will be in /gm9/out/\[titleID\].cia.
 
 ### Dumping A System Title As A CIA
 *(Note: You may need the TitleID of the System App, a list of these can be found [here](https://www.3dbrew.org/wiki/Title_list "System Title List"))*
-1. Select [1:] SYSNAND CTRNAND.
+1. Select \[1:\] SYSNAND CTRNAND.
 2. Highlight the title folder, press R+A and select "Search for titles"
 3. Find the title which you want to dump. The names are usually accurate enough.
 3. Select TMD file options... > Build CIA (legit).

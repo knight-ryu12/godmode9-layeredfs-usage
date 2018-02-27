@@ -14,7 +14,7 @@
 4. The CIA will be in /gm9/out/titleid.cia.
 
 ### Dumping A System Title As A CIA
-*(Note: You may need the TitleID of the System App, a list of these can be found [here](https://www.3dbrew.org/wiki/Title_list "System Title List")*
+*(Note: You may need the TitleID of the System App, a list of these can be found [here](https://www.3dbrew.org/wiki/Title_list "System Title List"))*
 1. Select [1:] SYSNAND CTRNAND.
 2. Highlight the title folder, press R+A and select "Search for titles"
 3. Find the title which you want to dump. The names are usually accurate enough.

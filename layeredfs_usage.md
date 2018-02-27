@@ -1,5 +1,5 @@
-###Using Lumas layeredfs (8.0+ or something, anything lower is unsupported)
-Note: THIS IS NOT A SUBSTITUTION FOR SALTYSD FOR SSB4, STOP TRYING TO DO THAT FFS
+### Using Lumas layeredfs (8.0+ or something, anything lower is unsupported)
+**Note: THIS IS NOT A SUBSTITUTION FOR SALTYSD FOR SSB4, STOP TRYING TO DO THAT FFS**
 
 1. Dump files that you wish to modify using https://pastebin.com/sx8HYULr (if you are provided files from say a rom hack, you can skip this and go to step 3)
 2. Make changes as you see fit, I suggest that you make copies of files before modifying them and place them somewhere else.
